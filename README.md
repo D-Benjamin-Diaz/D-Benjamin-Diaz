@@ -7,7 +7,7 @@ Currently, I am a Computer Science student at Augusta University 🎓
 Growing up, I always loved to ask myself "How does this work?" and somehow the answers to those questions fascinated me. 
 My curiosity made me fall in love with the world of Robotics 🤖, Engineering ⚙ and Computing 💻. 
 And by default, I fell more in love with Mathematics and how is used to explain our world through Physics. 🚀
-Some may say I am a bit of a nerd, but I think the more nerd you are aware you are about the beutiful world we live in. 🗺
+Some may say I am a bit of a nerd, but I think the more nerd you are, the more aware you are about the beautiful world we live in. 🗺
 
 I've liked to find ways to solve problems and get hands on into it to find a solution.
 So, much so that when I was in Highschool, I enlisted myself to become part of the Robotics Team.
