@@ -1,0 +1,180 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+% change color hyperlinks
+\hypersetup{%
+    colorlinks=true,% hyperlinks will be black
+    urlcolor=[rgb]{0.04,0,0.5},
+    urlbordercolor=[rgb]{0.7,0.7,0.7},% hyperlink borders will be gray
+    pdfborderstyle={/S/U/W 0.5}% border style will be underline of width 1pt
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+    }
+}
+
+\newcommand{\resumeItemPaper}[1]{
+    \item\small{
+            {#1}
+    }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textbf{#1}       & #2                 \\
+        \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\href{}{\Large Benjamin Diaz}} & Email: \href{mailto:ddiazposada@augusta.edu}{ddiazposada@augusta.edu} \\
+\href{https://www.linkedin.com/in/dbenjamindiaz/}{\faLinkedin} {dbenjamindiaz   }
+\href{https://github.com/D-Benjamin-Diaz}{\faGithub} {D-Benjamin-Diaz  (projects)}
+& \today \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Augusta University - BS in Computer and Information Sciences}{Augusta, GA}
+{Minor in Physics | Minor in Mathematics | Cybersecurity Certified}{08/2022 - 05/2026}
+
+\resumeSubheading
+{Georgia Tech - Engineering Certificate}{Atlanta, GA}
+{Introduction and Application of Engineering \& Mechanics}{07/2020}
+
+\resumeSubheading
+{University of Michigan - Programming Certification}{Ann Harbor, MI}
+{Python for Everybody}{11/2020}
+\resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Work  Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Department of Computer and Cyber Sciencences Student Assistant}{Augusta, GA}
+{Undergraduate Course Assistant (UCA)}{08/2025 – present}
+\resumeItemListStart
+\resumeItem{Responsibilities}{Served as an Undergraduate Course Assistant, providing academic support to students in both entry-level and upper-division courses through targeted  tutoring sessions. Collaborated closely with faculty to better align tutoring efforts with course expectations objectives and schedules. Assisted under faculty supervision with grading assignments while maintaining consistency, and academic integrity. Proactively followed up with students to monitor progress, reinforce  concepts, and retrieve feedback to ensure overall course success for future classes.}
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Department of Information \& Technology Student Assistant}{Augusta, GA}
+{Audivisual \& PC Technician}{09/2023 – 08/2025}
+\resumeItemListStart
+\resumeItem{Responsibilities}{Delivered campus-wide academic and event audiovisual support, ensuring reliable operation of classroom and event technology. Troubleshot and resolved AV hardware and system issues efficiently while coordinating with faculty, staff, and IT teams to minimize downtime. Provided on-call technical support, managed service requests in ServiceNow, maintained accurate AV equipment inventory and documented all the problem solving procedure of each ticket issued in accordance of Augusta University standards.}
+\resumeItemListEnd
+
+
+\resumeSubheading
+{Applaudo Studios Summer Internship}{San Salvador, SV}
+{Technology Intern}{Summer 2025}
+\resumeItemListStart
+\resumeItem{Responsibilities}{Developed and maintained backend automation solutions using n8n, JavaScript, PostgreSQL, and REST APIs to streamline workflows for the Workforce Management team. Built webhook-driven automations integrating HR platforms and internal systems to synchronize developer calendars and manage approved leave data, including creation, updates, and deletions. Collaborated closely with DevOps teams to design test cases, validate API integrations, and ensure data integrity and reliability across all automation executions.}
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\item{ \textbf{Languages}{: English, Spanish (Native Speaker)} }
+\item{ \textbf{Programming languages}{: Java/Kotlin, .NET, SQL, Python, HTML, CSS, JavaScript} }
+\item{ \textbf{Softwares}{: JetBrains IDEs, Microsoft Office Suite, MacOS, Windows, Linux, MySQL Workbench} }
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------------
+\section{Awards}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Academic Embassdor \& Scholar}{}
+{Georgia Rotary Student Program (GRSP)}{2022/2023}
+
+\resumeSubheading
+{Integer Homo Award}{}
+{Maximum Recognition to the Integral Formation of a Student}{2022}
+
+\resumeSubHeadingListEnd
+
+%--------REFERENCES------------
+\section{References}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Rosalyn Holliday - Academic Program Coordinator}{Email : \href{rholliday@augusta.edu}{rholliday@augusta.edu}}
+{Augusta University Department of Computer and Cyber Siences}{}
+
+\resumeSubheading
+{Arijana Reese - Director of IT \& Customer Experiecne}{Email : \href{arreese@augusta.edu}{arreese@augusta.edu}}
+{Augusta University Department of Information \& Technology}{}
+
+\resumeSubheading
+{Dr Gursimran Walia - Dean for Academic Affairs}{Email : \href{GWALIA@augusta.edu}{gwalia@augusta.edu}}
+{Augusta University Department of Computer and Cyber Siences}{}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
