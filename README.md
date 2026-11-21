@@ -13,6 +13,10 @@ Back in 2019, I joined the Robotics team at Highlands International School San S
 
 So yeah, I can proubdly say I'm a nerd Pro Max! ⚡
 
+
+If you would like to know more about my interests go here (TODO: add more of my interests in about me)
+
+
 ## My Projects & Activity
 
 TODO: Add Projecs and Recent Activity
