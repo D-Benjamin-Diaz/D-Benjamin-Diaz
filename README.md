@@ -1,14 +1,6 @@
-# Benjamin Diaz
+# Hi! I'm Benji Diaz 👋
+### .NET & Python engineer
 
-Software engineer working in C#/.NET and Python on Azure.
-Currently building serverless APIs and automation for 70+ managed client
-environments at CMA Technology.
+During the day I work as a NOC Technician. But behind that mask, I'm an Engineer starting his career as a Developer by building projecs brick by brick 🧱. Or is it more accurate to say line by line? 🤔
 
-Interests: backend services, infrastructure automation, self-hosted systems.
-
-**Contact:** benjamin.diaz0803@gmail.com
-**LinkedIn:** [linkedin.com/in/dbenjamindiaz](https://linkedin.com/in/dbenjamindiaz)
-
-## Tech Stack
-
-C# · .NET · Python · SQL · Docker · Azure · Linux
+In 2019 I joined the Robotics team at Highlands International School San Salvador 🇸🇻. From there, my pasion for Robotics, Technology and Engineering grew exponentialy. Later, I decided on hopping on the Tech World by pairing my B.S. in Computer Science along with Minors in Mathematics and Physics at Augusta University (Go Jags! 🐾). So yeah, I'm a nerd Pro Max ⚡
