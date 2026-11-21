@@ -1,7 +1,6 @@
-# Hi! I'm Benji Diaz 👋
-### .NET & Python Engineer
+![Header](./github-header-banner)
 
-## About Me
+## About Benjamin Diaz
 
 During the day I work as a NOC Technician. But behind that mask, I'm an Engineer starting his career as a Developer by building projecs brick by brick 🧱. 
 (Or is it more accurate to say line by line? 🤔)
